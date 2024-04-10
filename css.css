@@ -1,0 +1,53 @@
+.trail {
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* 
+.inputs {
+    border-radius: 0.5em;
+} */
+
+h1 {
+    text-decoration: underline;
+}
+
+.labels {
+    padding-bottom: 1em;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+input {
+    font-size: 1.5em;
+    font: bold;
+    border-radius: 0.5em;
+}
+
+input[type="number"] {
+    width: 12em;
+    text-align: center;
+}
+
+
+button {
+    font-size: 1.5em;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: whitesmoke;
+    padding: 50px 60px 70px;
+    text-align: center;
+}

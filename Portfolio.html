@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://kit.fontawesome.com/7b7c85aa3b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <nav id="Navbar">
+        <div id="NameInNavbar" style="font-size: 2rem;"></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#Academics">Academics</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact_Info">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div id="Logo" style="font-size: 2rem;"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#" onclick="toggleMenu()">Academics</a></li>
+                <li><a href="#" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- JavaScript -->
+    <section id="profile">
+        <div class="section__pic-container">
+
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 id="title"></h1>
+            <p id="section__text__p2"></p>
+            <div id="icons">
+                <div id="icon1">
+                    <i class="fa-brands fa-github"></i>
+                    <p id="GitHub_icon"></p>
+                </div>
+                <div id="icon2">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p id="LinkedIn_icon"></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="About">
+        <div class="section__pic-container1">
+            <img src="aboutme.jpg">
+        </div>
+        <div id="About-details">
+            <h1 class="title1">About me</h1>
+            <p class="section__text__p1">Seeking a challenging position as a student. Eager to
+                apply my knowledge and skills gained through
+                academic pursuits to contribute to a dynamic
+                organization. Committed to continuous learning and
+                growth, I am determined to excel in a team-oriented
+                environment that fosters professional development
+                and offers opportunities to make a meaningful impact.</p>
+        </div>
+    </section>
+    <section id="Academics" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+        <div id="Academic-Details">
+            <div class="section__pic-container" style="padding-left: 2em;">
+                <img src="Academics.jpg">
+            </div>
+            <div style="padding-left: 2em; padding-top: 2em;">
+                <h1 class="title1" style="padding-left: 1em;">Academics</h1>
+                <div id="Academic-info">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2 id="University"></h2>
+                </div>
+                <p id="Grad_Percentage"></p>
+                <div id="Academic-info">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <h2 id="College"></h2>
+                </div>
+                <p id="College_Percentage"></p>
+                <div id="Academic-info">
+                    <i class="fa-solid fa-school"></i>
+                    <h2 id="School"></h2>
+                </div>
+                <p id="School_Percentage"></p>
+            </div>
+        </div>
+    </section>
+    <section id="Skills">
+        <div id="Technical" class="one" style="margin-right: 2em;">
+            <h1 class="title1">Technical Skills</h1>
+        </div>
+        <div id="Soft" class="one">
+            <h1 class="title1">Soft Skills</h1>
+        </div>
+    </section>
+    <section id="Projects">
+        <h1 class="title1" style="padding-bottom: 0.8em;">Projects</h1>
+        <div id="Project-Details">
+        </div>
+    </section>
+    <section id="LastSection">
+        <div id="Experiences" class="last" style="margin-right: 2em;">
+            <h1 class="title1">Experience</h1>
+            <div id="Experience-Details"></div>
+        </div>
+        <div id="Achievements" class="last">
+            <h1 class="title1">Achievements</h1>
+            <div id="Achievement-Details"></div>
+        </div>
+    </section>
+    <section id="Contact_Info">
+        <h1 class="title1" style="padding-left: 1em;">Contact Info</h1>
+        <div style="padding-bottom: 1em;">
+            <i class="fa-solid fa-envelope" style="padding-right:0.5em ;"></i>
+            <h2 id="mail"></h2>
+        </div>
+        <div>
+            <i class="fa-solid fa-phone" style="padding-right:0.5em ;"></i>
+            <h2 id="mobile"></h2>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169; 2024 Sushanth Gagan. All Rights Reserved</p>
+    </footer>
+    <script src="Portfolio.js">
+    </script>
+</body>
+
+</html>
